@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+tiktoken
+openai
+langchain
+chromadb
+pytest
+black
+isort
+flake8
+python-dotenv
