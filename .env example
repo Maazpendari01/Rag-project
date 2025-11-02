@@ -1,0 +1,12 @@
+
+Create `.env.example`:
+```
+# Database
+DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/todo_db
+
+# JWT Secret (generate with: python -c "import secrets; print(secrets.token_hex(32))")
+SECRET_KEY=your-secret-key-here
+
+# API Keys
+GROQ_API_KEY=your-groq-key-here
+VOYAGE_API_KEY=your-voyage-key-here
