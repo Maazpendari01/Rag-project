@@ -1,41 +1,39 @@
+.env
+
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.log
-
-.env
+.Python
 venv/
-.env.local
-*.env.*
-.DS_Store
+env/
+*.egg-info/
 
-.vscode/
-.idea/
-*.swp
-
+# Uploaded files (don't commit user data)
 uploads/
 upload/
 
-.pytest_cache/
-.coverage
-htmlcov/
-.cache/
+# Database
+*.db
+*.sqlite
 
-build/
-dist/
-*.egg-info/
-.eggs/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-pgvector/.github/
-pgvector/sql/
-pgvector/src/
-pgvector/test/
-pgvector/Dockerfile
-pgvector/Makefile
-pgvector/Makefile.win
-pgvector/META.json
-pgvector/META.yml
+# OS
+.DS_Store
+Thumbs.db
 
-*.tmp
-*.bak
+# Logs
+*.log
+
+# pgvector (you downloaded this but don't need it in repo)
+pgvector/
+
+# Test files
+test_*.py
+Test_*.py
