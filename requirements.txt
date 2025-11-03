@@ -10,3 +10,4 @@ voyageai
 pydantic-settings
 pydantic[email]
 python-magic
+aiofiles
