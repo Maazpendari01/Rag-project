@@ -26,6 +26,6 @@ python-magic==0.4.27
 # Utilities
 python-dotenv==1.0.1
 
-
+pydantic[email]==2.10.3
 
 
