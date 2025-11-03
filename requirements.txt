@@ -34,5 +34,5 @@ werkzeug==3.0.2
 
 pdfplumber
 
-git add requirements.txt
+python-docx
 
