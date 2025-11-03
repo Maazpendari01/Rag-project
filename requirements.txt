@@ -30,7 +30,7 @@ python-dotenv==1.0.1
 pydantic[email]==2.10.3
 
 aiofiles==23.2.1
-
+werkzeug==3.0.2
 
 
 
