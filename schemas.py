@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Literal
 from pydantic import BaseModel, EmailStr, Field
 
 
@@ -57,7 +57,7 @@ class DocumentResponse(BaseModel):
     file_size: int
     content_type: str
     uploaded_at: datetime
-    processing_status: str
+    processing_status: Literal["pending", "processing", "completed", "failed"]
     processing_error: Optional[str] = None
     processed_at: Optional[datetime] = None
 
@@ -99,7 +99,7 @@ class MessageCreate(BaseModel):
 
 class MessageResponse(BaseModel):
     id: int
-    role: str
+    role: Literal["user", "assistant"]
     content: str
     sources: Optional[List[Dict]] = []
     created_at: datetime
