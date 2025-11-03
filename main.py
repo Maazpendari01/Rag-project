@@ -13,7 +13,7 @@ app = FastAPI(title="RAG API", version="1.0.0")
 # ✅ Add CORS middleware BEFORE including routers
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],   # React frontend
+    allow_origins=["https://rag-chatbot-tau-five.vercel.app"],   # React frontend
     allow_credentials=True,
     allow_methods=["*"],  # allow GET, POST, OPTIONS, etc.
     allow_headers=["*"],  # allow all custom headers like "Content-Type"
