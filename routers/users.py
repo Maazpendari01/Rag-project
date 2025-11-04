@@ -14,7 +14,7 @@ import crud
 from models import UserDB
 
 # ✅ Changed prefix from /users to /auth
-router = APIRouter(prefix="/auth", tags=["authentication"])
+router = APIRouter(prefix="/users", tags=["users"])
 
 
 @router.post("/register", response_model=Token, status_code=status.HTTP_201_CREATED)
