@@ -10,7 +10,7 @@ app = FastAPI(title="RAG API", version="1.0.0")
 
 origins = [
     "https://rag-chatbot-tau-five.vercel.app",  # your Vercel frontend
-    "https://rag-backend.onrender.com",    # your backend
+    "https://rag-project-0zcf.onrender.com",    # your backend
     "http://localhost:5173",
     "http://localhost:3000",
 ]
